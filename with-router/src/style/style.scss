@@ -1,0 +1,38 @@
+.header {
+  background: #6edff6;
+  .nav-item {
+    display: flex;
+  }
+  p {
+    font-weight: bold;
+    margin: 20px;
+  }
+}
+
+.sidebar {
+  top: 60px;
+  width: 150px;
+  z-index: 10;
+  background: #c4c9d0;
+  border-right: 1px solid rgba(0, 0, 0, 0.07);
+  bottom: 50px;
+  height: 100%;
+  margin-bottom: -70px;
+  margin-top: 0px;
+  padding-bottom: 70px;
+  position: fixed;
+  font-weight: bold;
+  color: white;
+
+  .sidebar-item {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+
+  }
+
+}
+
+.content {
+  margin-left: 200px;
+}
